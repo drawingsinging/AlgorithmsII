@@ -8,7 +8,7 @@
 public class WordNet {
     // constructor takes the name of the two input files
     public WordNet(String synsets, String hypernyms)  {
-
+       In readFile = new In(synsets);
     }
 
     // the set of nouns (no duplicates), returned as an Iterable
